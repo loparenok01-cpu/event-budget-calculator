@@ -1,0 +1,31 @@
+# Тема приложения — спокойная палитра по образцу «Обложка2»
+# (кремовый фон, мятный второй фон, золото основного действия)
+[theme]
+primaryColor = "#A8802F"
+backgroundColor = "#FCFBF6"
+secondaryBackgroundColor = "#EEF4EA"
+textColor = "#3B372F"
+font = "sans"
+
+# Базовый размер — пропорциональное увеличение текста и элементов UI (NFR-9)
+baseFontSize = 18
+
+# Заголовки — системный serif (спокойная иерархия, без внешних шрифтов)
+headingFont = "serif"
+
+# Единые радиусы карточек и кнопок
+baseRadius = "12px"
+buttonRadius = "12px"
+
+# Рамки: единый тон по всему интерфейсу, разделитель бокового меню
+borderColor = "#E5E0D2"
+showSidebarBorder = true
+
+# Ссылки: золотой, подчёркнутые
+linkColor = "#A8802F"
+linkUnderline = true
+
+# Спокойные цвета акцентного текста — контраст на кремовом фоне
+redTextColor = "#B3423B"
+greenTextColor = "#2F7A4D"
+blueTextColor = "#1C6DC1"
