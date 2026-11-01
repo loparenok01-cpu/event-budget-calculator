@@ -12,7 +12,8 @@
 
 > Учебный MVP: требования → архитектура → реализация → автотесты → CI.
 > Полный кейс — в [`docs/case/Kejs_praktika.md`](docs/case/Kejs_praktika.md),
-> интерактивная версия — в [`docs/case/Kejs_praktika.html`](docs/case/Kejs_praktika.html).
+> интерактивная версия — в [`docs/case/Kejs_praktika.html`](docs/case/Kejs_praktika.html)
+> и на GitHub Pages: **https://loparenok01-cpu.github.io/event-budget-calculator/**.
 
 ---
 
@@ -242,6 +243,14 @@ event-budget-calculator/
 └── README.md
 ```
 
+### Ветки
+
+| Ветка | Назначение |
+|---|---|
+| `main` | стабильная версия для портфолио; сюда попадают проверенные изменения |
+| `develop` | интеграционная ветка для следующей итерации |
+| `gh-pages` | самодостаточная кейс-страница для GitHub Pages |
+
 Файлы базы данных, виртуальное окружение, кэш и локальные настройки
 исключены через `.gitignore`.
 
@@ -309,6 +318,7 @@ SQLite, четыре таблицы:
 - [Паспорт проекта](docs/Pasport_proekta.md) — цель, границы MVP, риски, этапы.
 - [Кейс практики](docs/case/Kejs_praktika.md) — демо-сценарий, проверка, ограничения.
 - [Кейс-страница HTML](docs/case/Kejs_praktika.html) — самодостаточная версия со скриншотами.
+- [Кейс на GitHub Pages](https://loparenok01-cpu.github.io/event-budget-calculator/) — опубликованная версия страницы.
 
 ---
 
